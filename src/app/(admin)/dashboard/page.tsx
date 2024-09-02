@@ -1,8 +1,18 @@
+import AdminCard from "@/components/admin/admin.card";
 
-import React from "react";
-const DashboardPage: React.FC = () => {
-  return (
-    <div>DashboardPage</div>
-  );
-};
+const DashboardPage = () => {
+
+    return (
+        <div>
+            <AdminCard />
+        </div>
+    )
+}
+
 export default DashboardPage;
+
+
+
+
+
+
